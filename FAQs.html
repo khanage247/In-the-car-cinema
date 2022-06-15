@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS\style.css">
+    <title>Document</title>
+</head>
+<body>
+<img src="IMAGES\drive in cinmea logo.jpg" alt="logo">
+      
+<h1>In the car cinema</h1>
+<ul>
+  <div class="nav">
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="About.html">about</a></li>
+    <li><a href="venues.html">venues</a></li>
+    <li><a href="food and drinks.html">food and drinks</a></li>
+    <li><a href="book tickets-movies.html">book tickets/movies</a></li>
+    <li><a href="social distance rules.html">social distance rules</a></li>
+    <li><a href="FAQs.html">FAQs</a></li>
+    <li><a href="contact us.html">contact us</a></li>
+  </div>  
+</ul>  
+<h1>Frequently asked questions</h1>
+
+<button type="button" class="collapsible">+ HOW MANY PEOPLE ARE ALLOWED IN MY CAR?</button>
+<div class="content">
+  <p>A general admission ticket admits one car and that includes all occupants. In the interest of safety for all road users, we do require that guests do not exceed the number of people your car was made for, and entry will be denied for those who exceed this.</p>
+</div>
+<button type="button" class="collapsible">+ CAN I SIT OUTSIDE MY CAR?</button>
+<div class="content">
+  <p>No, customers need to remain in their cars for the screening, apart from if they need to use the toilet facilities or to collect their hot food order, to enable social distancing to be followed.</p>
+</div>
+<button type="button" class="collapsible">+ HOW DO WE HEAR THE MOVIE?</button>
+<div class="content">
+  <p>You will get a personal digital cinema quality speaker to put into your car upon arrival. These are wirelessly set up and ready to go, there’s no need to tune them in and you don’t need to have your radio on draining your battery! This will not only allow you to hear your favourite festive film but also place food and drinks orders straight from its built-in screen - allowing you to do Winter Drive In in style.</p>
+</div>
+<button type="button" class="collapsible">+ ARE YOUR SPEAKERS CLEANED AFTER EACH SCREENING?</button>
+<div class="content">
+  <p>Yes, all the devices will be cleaned and sanitised between each screening. You collect them on entry and return them when you leave without having to leave your car. It couldn't be more simple.</p>
+</div>
+<button type="button" class="collapsible">+ WILL I HAVE A GOOD VIEW?</button>
+<div class="content">
+  <p>We’ve set the site up to allow a good view from all cars. When you book, you’ll be asked to pick if you have a standard or a large car (SUV, People Carrier etc) - this is simply so we can space cars out successfully as they arrive to ensure the best view for all.</p>
+</div>
+<button type="button" class="collapsible">+ CAN I OPEN MY CAR WINDOW DURING THE FILM?</button>
+<div class="content">
+  <p>Yes, all cars will be positioned far enough apart to can ensure social distancing. This means that all windows and convertible roofs can be open. To ensure a smooth transition between events all cars are asked to face forward, and we do not allow people to watch from their boots or truck beds.</p>
+</div>
+<button type="button" class="collapsible">+ I DRIVE A CONVERTIBLE. CAN I HAVE MY CAR ROOF DOWN DURING THE SCREENING?</button>
+<div class="content">
+  <p>Yes, all cars will be positioned far enough apart to ensure social distancing. This means that convertible roofs can be open. To ensure a smooth transition between events all cars are asked to face forward and we do not allow people to watch from their boots or truck beds.</p>
+</div>
+<button type="button" class="collapsible">+ CAN I WATCH THE FILM FROM MY TRUCK BED OR BOOT OF MY CAR?</button>
+<div class="content">
+  <p>To ensure a smooth transition between events all cars are asked to face forward and we do not allow people to watch from their boots or truck beds.</p>
+</div>
+<button type="button" class="collapsible">+ MY NUMBER PLATE HAS CHANGED?</button>
+<div class="content">
+  <p>If your number plate has changed since you booked your ticket, you can amend it free of charge by emailing a.aurangzeb@gmail.com. You will need to amend this at least 4 hours before the screening to make sure our recognition software is updated in time.</p>
+</div>
+<button type="button" class="collapsible">+ CAN WE PARK TOGETHER WITH FRIENDS OR FAMILY?</button>
+<div class="content">
+  <p>Parking spaces will be allocated upon arrival. If you and your friends arrive together and have the same ticket type, we will do our best to situate you in close proximity but this cannot be guaranteed. Please also bear in mind that cars are positioned dependent on their height and whether they are a large vehicle or not so this may impact whether or not you can be parked near each other.</p>
+</div>
+<button type="button" class="collapsible">+ ARE THERE HEIGHT RESTRICTIONS ON CARS?</button>
+<div class="content">
+  <p>All vehicles must be under 2 metres high for everyone to enjoy the full experience. If you are bringing a large car, please select a large car ticket on booking and you will be directed to the appropriate parking spot on site to ensure a clear view of the screen for all during their visit to the The Luna Drive In.</p>
+</div>
+<button type="button" class="collapsible">+ I HAVE A VAN, CAN I PARK SIDE ON?</button>
+<div class="content">
+  <p>No, To ensure a smooth transition between events all cars are asked to face forward. If you have a van or other large vehicle, please select a large car ticket and you will be directed to the appropriate parking spot on site.
+    Furthermore please note that high-top vans, campervans or any vehicles of this height will be placed on the back row to ensure a clear view of the screen for all during their visiting to drive in cinemas.</p>
+</div>
+<button type="button" class="collapsible">+ HOW CLOSE WILL THE NEXT CAR BE TO ME?</button>
+<div class="content">
+  <p>Cars will be spaced to allow for social distancing to take place between the rows so you can easily walk to and from the toilet and to collect your food. The cars will be parked next to each other like in similar to a carpark so if you do need to leave your car please be aware of people in the car next to you as you leave and return to your vehicle.</p>
+</div> 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+</body>
+</html>
